@@ -1,0 +1,34 @@
+# python
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+
+# terraform
+**/.terraform/
+**/.terraform.lock.hcl
+**/terraform.tfvars
+**/terraform.tfstate
+**/terraform.tfstate.backup
+
+# ssh keys
+*.pem
+id_haze
+id_haze.pub
+id_rsa
+id_ed25519
+*.key
+
+# haze state (lives in ~/.haze but just in case)
+instances.json
+last.log
+tunnels/
+
+# env / secrets
+.env
+.env.*
+*.env
+
+# os
+.DS_Store
+Thumbs.db
